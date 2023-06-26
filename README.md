@@ -4,7 +4,7 @@ The objective of this project was to develop an app, PlanMyTrip, that uses the d
 
 ## Collect the Data 
 
-The NumPy module was used to generate more than 2,000 random latitudes and longitudes. The Citipy module was used to list the nearest city to the latitudes and longitudes. The OpenWeatherMap API was used to request the current weather data from each unique city in the list. then, the JSON data from the API request was parsed and the following data were collected and added to a DataFrame: 
+The NumPy module was used to generate more than 2,000 random latitudes and longitudes. The Citipy module was used to list the nearest city to the latitudes and longitudes. The OpenWeatherMap API was used to request the current weather data from each unique city in the list. Then, the JSON data from the API request was parsed and the following data were collected and added to a DataFrame: 
 
 - City, country, and date
 - Latitude and longitude
